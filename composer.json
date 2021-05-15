@@ -1,0 +1,25 @@
+{
+  "name": "kingzcheung/routing-match",
+  "type": "library",
+  "description": "Routing Match",
+  "authors": [
+    {
+      "name": "kingzcheung",
+      "email": "kingzcheung@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "KingzCheung\\RoutingMatch\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "KingzCheung\\RoutingMatch\\Test\\": "tests/"
+    }
+  }
+}
