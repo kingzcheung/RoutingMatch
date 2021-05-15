@@ -74,4 +74,4 @@ fabric.properties
 vendor/
 composer.lock
 .DS_Store
-
+.idea/
