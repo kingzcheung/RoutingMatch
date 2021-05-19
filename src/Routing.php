@@ -11,8 +11,7 @@ class Routing {
     private function __construct() {
     }
 
-    private function __clone(): void {
-    }
+    private function __clone() {}
 
     public static function create(array $routes): Tree {
         if (!self::$tree) {
